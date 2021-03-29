@@ -1,0 +1,27 @@
+﻿<!-- 
+// ============================================================================
+//               CrazzzyAuction by CrazzzyPeter (c) 2021-2021 
+// ============================================================================
+//
+// Contacts:
+//   https://github.com/crazzzypeter
+//   https://www.youtube.com/c/crazzzypeter
+//   https://www.twitch.tv/crazzzypeter
+//   instagram: @crazzzypeter
+//   telegram: @crazzzypeter
+//
+// ============================================================================
+// License: GNU GPL 2.0
+// ============================================================================    
+-->
+<Application
+    x:Class="CrazzzyAuction.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrazzzyAuction" RequestedTheme="Dark" HighContrastAdjustment="None">
+
+
+    <Application.Resources>
+                        <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" /> 
+    </Application.Resources>
+</Application>

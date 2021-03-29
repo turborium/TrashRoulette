@@ -1,0 +1,126 @@
+﻿<!-- 
+// ============================================================================
+//               CrazzzyAuction by CrazzzyPeter (c) 2021-2021 
+// ============================================================================
+//
+// Contacts:
+//   https://github.com/crazzzypeter
+//   https://www.youtube.com/c/crazzzypeter
+//   https://www.twitch.tv/crazzzypeter
+//   instagram: @crazzzypeter
+//   telegram: @crazzzypeter
+//
+// ============================================================================
+// License: GNU GPL 2.0
+// ============================================================================    
+-->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Main begin ========================================================================================== -->
+    <!-- Main Thickness -->
+    <x:Double x:Key="ThemeMainThickness">2.0</x:Double>
+    <!-- Main Color -->
+    <Color x:Key="ThemeMainColor">#FFFF6800</Color>
+    <Color x:Key="ThemeMainHighColor">#FFFF7A00</Color>
+    <Color x:Key="ThemeMainLowColor">#FFDF6000</Color>
+    <Color x:Key="ThemeMainDisabledColor">#55FF6800</Color>
+    <!-- Main Control Foreground -->
+    <Color x:Key="ThemeMainControlForegroundColor">#FFFFFFFF</Color>
+    <StaticResource x:Key="ThemeMainControlForegroundPointerOverColor" ResourceKey="ThemeMainControlForegroundColor"/>
+    <StaticResource x:Key="ThemeMainControlForegroundFocusedColor" ResourceKey="ThemeMainControlForegroundColor"/>
+    <StaticResource x:Key="ThemeMainControlForegroundPressedColor" ResourceKey="ThemeMainControlForegroundColor"/>
+    <Color x:Key="ThemeMainControlForegroundDisabledColor">#55FFFFFF</Color>
+    <!-- Main Control Background -->
+    <Color x:Key="ThemeMainControlBackgroundColor">#FF131313</Color>
+    <!-- Main Control Border -->
+    <Color x:Key="ThemeMainControlBorderColor">#60FFFFFF</Color>
+    <Color x:Key="ThemeMainControlBorderPointerOverColor">#A0FFFFFF</Color>
+    <StaticResource x:Key="ThemeMainControlBorderFocusedColor" ResourceKey="ThemeMainColor"/>
+    <StaticResource x:Key="ThemeMainControlBorderDisabledColor" ResourceKey="ThemeMainControlBorderColor"/>
+    <!-- Main Control Placeholder Foreground -->
+    <Color x:Key="ThemeMainControlPlaceholderColor">#33FFFFFF</Color>
+    <!-- Application Background -->
+    <Color x:Key="ThemeApplicationPageBackgroundColor">#FF252525</Color>
+    <!-- Main end ============================================================================================ -->
+    
+    <!-- === Page colors === -->
+    <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="{ThemeResource ThemeApplicationPageBackgroundColor}"/>
+
+    <!-- === TextControl === -->
+    <StaticResource x:Key="TextControlBorderThemeThickness" ResourceKey="ThemeMainThickness"/>
+
+    <SolidColorBrush x:Key="TextControlForeground" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="TextControlForegroundPointerOver" Color="{ThemeResource ThemeMainControlForegroundPointerOverColor}"/>
+    <SolidColorBrush x:Key="TextControlForegroundFocused" Color="{ThemeResource ThemeMainControlForegroundFocusedColor}"/>
+    <SolidColorBrush x:Key="TextControlForegroundDisabled" Color="{ThemeResource ThemeMainControlForegroundDisabledColor}"/>
+
+    <SolidColorBrush x:Key="TextControlBackground" Color="{ThemeResource ThemeMainControlBackgroundColor}"/>
+    <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="{ThemeResource ThemeMainControlBackgroundColor}"/>
+    <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="{ThemeResource ThemeMainControlBackgroundColor}"/>
+    <SolidColorBrush x:Key="TextControlBackgroundDisabled" Color="{ThemeResource ThemeMainControlBackgroundColor}"/>
+
+    <SolidColorBrush x:Key="TextControlBorderBrush" Color="{ThemeResource ThemeMainControlBorderColor}"/>
+    <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="{ThemeResource ThemeMainControlBorderPointerOverColor}"/>
+    <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="{ThemeResource ThemeMainControlBorderFocusedColor}"/>
+    <SolidColorBrush x:Key="TextControlBorderBrushDisabled" Color="{ThemeResource ThemeMainControlBorderDisabledColor}"/>
+
+    <SolidColorBrush x:Key="TextControlSelectionHighlightColor" Color="{ThemeResource ThemeMainColor}"/>
+    <!-- BUG: Placeholder color is not applied, you can applied it in control template -->
+
+    <!-- === Button === -->
+    <SolidColorBrush x:Key="ButtonForeground" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="{ThemeResource ThemeMainControlForegroundPointerOverColor}"/>
+    <SolidColorBrush x:Key="ButtonForegroundPressed" Color="{ThemeResource ThemeMainControlForegroundPressedColor}"/>
+    <SolidColorBrush x:Key="ButtonForegroundDisabled" Color="{ThemeResource ThemeMainControlForegroundDisabledColor}"/>
+
+    <SolidColorBrush x:Key="ButtonBackground" Color="{ThemeResource ThemeMainColor}" />
+    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{ThemeResource ThemeMainHighColor}" />
+    <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="{ThemeResource ThemeMainLowColor}" />
+    <SolidColorBrush x:Key="ButtonBackgroundDisabled" Color="{ThemeResource ThemeMainDisabledColor}" />
+
+    <!-- === TextBlock === -->
+    <!-- BUG: Foreground color is not applied, you can applied it in control template -->
+    <!-- BUG: FFF -->
+
+    <!-- === RadioButton === -->
+    <!-- BUG: Foreground color is not applied, you can applied it in control template -->
+    <SolidColorBrush x:Key="RadioButtonForeground" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonForegroundPointerOver" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonForegroundPressed" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonForegroundFocused" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonForegroundDisabled" Color="{ThemeResource ThemeMainControlForegroundDisabledColor}"/>
+
+    <SolidColorBrush x:Key="RadioButtonCheckGlyphFill" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonCheckGlyphFillPointerOver" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonCheckGlyphFillPressed" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonCheckGlyphFillFocused" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonCheckGlyphFillDisabled" Color="{ThemeResource ThemeMainControlForegroundDisabledColor}"/>
+
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedFill" Color="{ThemeResource ThemeMainColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedFillPointerOver" Color="{ThemeResource ThemeMainHighColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedFillPressed" Color="{ThemeResource ThemeMainLowColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedFillFocused" Color="{ThemeResource ThemeMainColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedFillDisabled" Color="{ThemeResource ThemeMainDisabledColor}"/>
+
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedStroke" Color="{ThemeResource ThemeMainColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedStrokePointerOver" Color="{ThemeResource ThemeMainHighColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedStrokePressed" Color="{ThemeResource ThemeMainLowColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedStrokeFocused" Color="{ThemeResource ThemeMainColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseCheckedStrokeDisabled" Color="{ThemeResource ThemeMainDisabledColor}"/>
+
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseFill" Color="Transparent"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseFillPointerOver" Color="{ThemeResource ThemeMainDisabledColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseFillPressed" Color="{ThemeResource ThemeMainLowColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseFillFocused" Color="Transparent"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseFillDisabled" Color="Transparent"/>
+
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseStroke" Color="{ThemeResource ThemeMainControlForegroundColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseStrokePointerOver" Color="{ThemeResource ThemeMainControlForegroundPointerOverColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseStrokePressed" Color="{ThemeResource ThemeMainControlForegroundPressedColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseStrokeFocused" Color="{ThemeResource ThemeMainControlForegroundFocusedColor}"/>
+    <SolidColorBrush x:Key="RadioButtonOuterEllipseStrokeDisabled" Color="{ThemeResource ThemeMainControlForegroundDisabledColor}"/>
+
+
+</ResourceDictionary>
