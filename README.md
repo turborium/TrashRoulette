@@ -4,7 +4,7 @@
 ![scr](scr.png)
 *UWP - это не Win32 => скомпилированный бинарь без подписей у вас не запустится - компилируйте в Visual Studio самостоятельно!*
   
-Лицензия GNU GPL 2, (деньги мне плати!)[https://www.donationalerts.com/c/crazzzypeter]    
+Лицензия GNU GPL 2, [деньги мне плати!](https://www.donationalerts.com/c/crazzzypeter)    
   
 ---  
   
