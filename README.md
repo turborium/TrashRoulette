@@ -23,7 +23,8 @@ https://devblogs.microsoft.com/ifdef-windows/winui-3-preview-3/
 Если использовать менее кривой "голый" UWP - то к сожалению приложения будут в устаревшем Windows 8 стиле.  
 Таким образом при создании современных приложений на UWP/WinUI 2/3 разработчик вынужден сидеть на двух бета стульях.  
 
-## Комментарии других разработчиков в блоге майкрософт: (devblogs.microsoft.com/ifdef-windows/winui-3-preview-3)
+## Комментарии других разработчиков в блоге майкрософт: 
+(devblogs.microsoft.com/ifdef-windows/winui-3-preview-3)
 ![m1](m1.png)
 ![m2](m2.png)
 ![m3](m3.png)
