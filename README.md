@@ -4,14 +4,14 @@
 ![scr](scr.png)
 *UWP - это не Win32 => скомпилированный бинарь без подписей у вас не запустится - компилируйте в Visual Studio самостоятельно!*
   
-## Приложение выполнено на UWP - МУСОРНОЙ технологии от Microsoft.  
+### Приложение выполнено на UWP - МУСОРНОЙ технологии от Microsoft.  
 Q: Почему мусорной?  
-A: https://youtu.be/iD1Yrto1v3k
+A: https://youtu.be/iD1Yrto1v3k, https://youtu.be/8bcrAJ9FDvw
   
-## Код - отстой - но по примерам от Майкрософт по созданию UWP приложений.  
+### Код - отстой - но по примерам от Майкрософт.  
 Q: Почему такая убогая сортировка, где использование фичей биндингов как в WPF?  
-Что за ужас: https://github.com/crazzzypeter/TrashRoulette/blob/439e863c589b36420d450068ee9bbf03e5803295/CrazzzyAuction/AuctionModel.cs#L374  
-A: В UWP биндинги "обрезаны", прототип этого кода взят где-то в примерах приложений на UWP от майков.
+(https://github.com/crazzzypeter/TrashRoulette/blob/439e863c589b36420d450068ee9bbf03e5803295/CrazzzyAuction/AuctionModel.cs#L374)  
+A: В UWP биндинги "обрезаны", прототип этого кода "живой" сортировки взят где-то в примерах приложений на UWP от майков.
   
 ## XAML файлы разметки UI в плачевном состоянии, разметка перемешанна со стилизацией.
 Q: Почему?  
@@ -24,10 +24,10 @@ https://devblogs.microsoft.com/ifdef-windows/winui-3-preview-3/
 Таким образом при создании современных приложений на UWP/WinUI 2/3 разработчик вынужден сидеть на двух бета стульях.  
 
 ## Комментарии других разработчиков в блоге майкрософт: 
-devblogs.microsoft.com/ifdef-windows/winui-3-preview-3
+https://devblogs.microsoft.com/ifdef-windows/winui-3-preview-3
 ![m1](m1.png)
 ![m2](m2.png)
 ![m3](m3.png)
 
-## Вывод - не советую использовать UWP в продакшене.
+## Вывод - крайне не советую использовать UWP
 
